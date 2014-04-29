@@ -18,6 +18,10 @@ public class FizzBuzzTest {
 		assertEquals("4", fb.run(4));
 		assertEquals("buzz", fb.run(5));
 		assertEquals("fizz", fb.run(6));
+		assertEquals("7", fb.run(7));
+		assertEquals("8", fb.run(8));
+		assertEquals("fizz", fb.run(9));
+		assertEquals("buzz", fb.run(10));
 	}
 
 }
