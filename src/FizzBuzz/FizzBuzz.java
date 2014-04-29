@@ -6,6 +6,8 @@ public class FizzBuzz {
 			
 			if (num == 0)
 				return String.valueOf(num);
+			else if (num  == 0)
+				return "fizz";
 			else
 				return String.valueOf(num);
 				
