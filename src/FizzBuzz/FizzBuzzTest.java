@@ -22,6 +22,11 @@ public class FizzBuzzTest {
 		assertEquals("8", fb.run(8));
 		assertEquals("fizz", fb.run(9));
 		assertEquals("buzz", fb.run(10));
+		assertEquals("11", fb.run(11));
+		assertEquals("fizz", fb.run(12));
+		assertEquals("13", fb.run(13));
+		assertEquals("14", fb.run(14));
+		assertEquals("FizzBuzz", fb.run(15));
 	}
 
 }
