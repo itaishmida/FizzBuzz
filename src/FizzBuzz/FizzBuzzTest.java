@@ -11,9 +11,8 @@ public class FizzBuzzTest {
 		
 		FizzBuzz fb = new FizzBuzz();
 		
-		String answer = fb.run();
-		
-		assertEquals("0", "0");
+		assertEquals("0", fb.run(0));
+		assertEquals("1", fb.run(1));
 	}
 
 }
