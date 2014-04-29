@@ -2,9 +2,13 @@ package FizzBuzz;
 
 public class FizzBuzz {
 	
-		public String run() {
+		public String run(int num) {
 			
-			return "0";
+			if (num == 0)
+				return String.valueOf(num);
+			else
+				return String.valueOf(num);
+				
 			
 		}
 
