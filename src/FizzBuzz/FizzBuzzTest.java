@@ -15,6 +15,7 @@ public class FizzBuzzTest {
 		assertEquals("1", fb.run(1));
 		assertEquals("2", fb.run(2));
 		assertEquals("fizz", fb.run(3));
+		assertEquals("fizz", fb.run(6));
 	}
 
 }
